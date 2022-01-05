@@ -7,7 +7,7 @@ We provide sample data and algorithms presented in
 
 > Ali, R., Dahl, J. “Angular Spectrum Method for Curvilinear Arrays: Theory and Application to Fourier Beamforming,” *Manuscript in preparation for JASA Express Letters.*
 
-for the reconstruction ultrasound images using the Fourier beamforming technique and its time-domain equivalent. If you use the code/algorithm for research, please cite the above paper. 
+for the reconstruction ultrasound images using the Fourier beamforming technique. If you use the code/algorithm for research, please cite the above paper. 
 
 You can reference a static version of this code by its DOI number:
 [![DOI](https://zenodo.org/badge/346254482.svg)](https://zenodo.org/badge/latestdoi/346254482)
