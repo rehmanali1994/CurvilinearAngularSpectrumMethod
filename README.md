@@ -5,7 +5,7 @@ We previously demonstrated a Fourier beamforming technnique that could be used t
 
 We provide sample data and algorithms presented in
 
-> R. Ali, “Fourier-based Synthetic-aperture Imaging for Arbitrary Transmissions by Cross-correlation of Transmitted and Received Wave-fields,” Ultrasonic Imaging, p. 016173462110263, Jul. 2021, doi: 10.1177/01617346211026350. [Online]. Available: http://dx.doi.org/10.1177/01617346211026350 *
+> Ali, R., Dahl, J. “Angular Spectrum Method for Curvilinear Arrays: Theory and Application to Fourier Beamforming,” *Manuscript in preparation for JASA Express Letters.*
 
 for the reconstruction ultrasound images using the Fourier beamforming technique and its time-domain equivalent. If you use the code/algorithm for research, please cite the above paper. 
 
