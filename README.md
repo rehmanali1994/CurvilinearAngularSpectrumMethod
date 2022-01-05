@@ -10,7 +10,7 @@ We provide sample data and algorithms presented in
 for the reconstruction ultrasound images using the Fourier beamforming technique. If you use the code/algorithm for research, please cite the above paper. 
 
 You can reference a static version of this code by its DOI number:
-[![DOI](https://zenodo.org/badge/346254482.svg)](https://zenodo.org/badge/latestdoi/346254482)
+[![DOI](https://zenodo.org/badge/444859340.svg)](https://zenodo.org/badge/latestdoi/444859340)
 
 # Code and Sample Datasets
 The angular spectrum method for the downward propagation of transmit and receive wavefields is implemented in both MATLAB ([propagate_polar.m](propagate_polar.m)) and Python ([propagate_polar.py](propagate_polar.py)). The following example scripts/tutorials are provided:
