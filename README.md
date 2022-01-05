@@ -1,7 +1,7 @@
 # CurvilinearAngularSpectrumMethod
 Angular Spectrum Method and Fourier Beamforming Technique for Curvilinear Arrays
 
-<img src=Schematic.png width="50%" height="50%">
+<img src=Schematic.png align="center" width="50%" height="50%">
 
 We previously demonstrated a Fourier beamforming technnique that could be used to reconstruct ultrasound images from any arbitrary sequence of transmissions using the angular spectrum method: https://github.com/rehmanali1994/FourierDomainBeamformer. The main limitation of this and other Fourier beamforming approaches is that they are primarily limited to linear/planar arrays. Here we provide the implementation of the angular spectrum method in a polar coordinate system that enables the application of the Fourier beamforming technique in curvilinear arrays.
 
@@ -26,7 +26,7 @@ The angular spectrum method for the downward propagation of transmit and receive
 # Sample Results
 We show the following multistatic synthetic aperture image reconstruction using the Fourier beamforming technique with the polar form of the angular spectrum method:
 
-![](MultistaticReconstruction.png)
+<img src=MultistaticReconstruction.png align="center" width="80%" height="80%">
 
 The Fourier beamforming technique provided is equivalent to the time-domain cross-correlation process shown below (only a single-element transmission is shown here):
 
@@ -34,7 +34,7 @@ The Fourier beamforming technique provided is equivalent to the time-domain cros
 
 We also acquired channel data in-vivo using focused transmit beams on a clinical scanner to obtain the following synthetic aperture image reconstruction:
 
-![](FocusedTxSyntheticAperture.png)
+<img src=FocusedTxSyntheticAperture.png align="center" width="80%" height="80%">
 
 We show the same time-domain cross-correlation process in-vivo with a single focused transmit beam:
 
