@@ -30,6 +30,8 @@ The Fourier beamforming technique provided is equivalent to the time-domain cros
 
 ![](FieldII_TimeDomain.gif)
 
+![](Reconstructions.png)
+
 We show the same time-domain cross-correlation process in-vivo as well:
 
 ![](Siemens5C1_TimeDomain.gif)
