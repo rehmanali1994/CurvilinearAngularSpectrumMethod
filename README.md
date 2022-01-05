@@ -24,16 +24,18 @@ Please see any supporting functions in [beamforming_functions](beamforming_funct
 **Please download the sample data (FocTxDataset.mat) under the [releases](https://github.com/rehmanali1994/FourierDomainBeamformer/releases) tab for this repository, and place that data in the main directory ([FourierDomainBeamformer](https://github.com/rehmanali1994/FourierDomainBeamformer)).**
 
 # Sample Results
+We show the following multistatic synthetic aperture image reconstruction using the Fourier beamforming technique with the polar form of the angular spectrum method:
+
+![](MultistaticReconstruction.png)
+
 The Fourier beamforming technique provided is equivalent to the time-domain cross-correlation process shown here:
 
 ![](FieldII_TimeDomain.gif)
 
-![](Reconstructions.png)
+We also acquired channel data in-vivo using focused transmit beams on a clinical scanner to obtain the following synthetic aperture image reconstruction:
+
+
 
 We show the same time-domain cross-correlation process in-vivo as well:
 
 ![](Siemens5C1_TimeDomain.gif)
-
-Here are results for conventional dynamic-receive beamforming, virtual source synthetic aperture, REFoCUS, and the proposed Fourier beamforming technique ("full-waveform reconstruction" in the paper): 
-
-![](Reconstructions.png)
