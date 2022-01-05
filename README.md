@@ -26,7 +26,7 @@ Please see any supporting functions in [beamforming_functions](beamforming_funct
 # Sample Results
 We show the following multistatic synthetic aperture image reconstruction using the Fourier beamforming technique with the polar form of the angular spectrum method:
 
-![](MultistaticReconstruction.pdf)
+![](MultistaticReconstruction.png)
 
 The Fourier beamforming technique provided is equivalent to the time-domain cross-correlation process shown here:
 
