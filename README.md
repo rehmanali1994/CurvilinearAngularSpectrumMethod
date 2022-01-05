@@ -28,7 +28,11 @@ Please see any supporting functions in [beamforming_functions](beamforming_funct
 # Sample Results
 The Fourier beamforming technique provided is equivalent to the time-domain cross-correlation process shown here:
 
-![](TimeDomainXCorr.gif)
+![](FieldII_TimeDomain.gif)
+
+We show the same time-domain cross-correlation process in-vivo as well:
+
+![](Siemens5C1_TimeDomain.gif)
 
 Here are results for conventional dynamic-receive beamforming, virtual source synthetic aperture, REFoCUS, and the proposed Fourier beamforming technique ("full-waveform reconstruction" in the paper): 
 
