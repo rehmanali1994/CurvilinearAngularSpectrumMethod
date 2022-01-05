@@ -34,7 +34,7 @@ The Fourier beamforming technique provided is equivalent to the time-domain cros
 
 We also acquired channel data in-vivo using focused transmit beams on a clinical scanner to obtain the following synthetic aperture image reconstruction:
 
-
+![](FocusedTxSyntheticAperture.png)
 
 We show the same time-domain cross-correlation process in-vivo as well:
 
