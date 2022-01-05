@@ -1,7 +1,7 @@
 # CurvilinearAngularSpectrumMethod
 Angular Spectrum Method and Fourier Beamforming Technique for Curvilinear Arrays
 
-![](Schematic.png=100x20)
+![](Schematic.png | width=100)
 
 We previously demonstrated a Fourier beamforming technnique that could be used to reconstruct ultrasound images from any arbitrary sequence of transmissions using the angular spectrum method: https://github.com/rehmanali1994/FourierDomainBeamformer. The main limitation of this and other Fourier beamforming approaches is that they are primarily limited to linear/planar arrays. Here we provide the implementation of the angular spectrum method in a polar coordinate system that enables the application of the Fourier beamforming technique in curvilinear arrays.
 
