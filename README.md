@@ -13,22 +13,20 @@ You can reference a static version of this code by its DOI number:
 [![DOI](https://zenodo.org/badge/346254482.svg)](https://zenodo.org/badge/latestdoi/346254482)
 
 # Code and Sample Datasets
-Each image reconstruction algorithm is implemented in both MATLAB and Python:
-1) Conventional dynamic-receive beamforming ([FocTxRecon.m](FocTxRecon.m) and [FocTxRecon.py](FocTxRecon.py))
-2) Virtual source synthetic aperture ([VirtualSourceRecon.m](VirtualSourceRecon.m) and [VirtualSourceRecon.py](VirtualSourceRecon.py))
-3) REFoCUS ([AdjointBasedREFoCUS.m](AdjointBasedREFoCUS.m) and [AdjointBasedREFoCUS.py](AdjointBasedREFoCUS.py))
-4) Full-Waveform Reconstruction in Time Domain ([TimeDomFullWaveRecon.m](TimeDomFullWaveRecon.m) and [TimeDomFullWaveRecon.py](TimeDomFullWaveRecon.py)) and Frequency Domain ([FreqDomFullWaveRecon.m](FreqDomFullWaveRecon.m) and [FreqDomFullWaveRecon.py](FreqDomFullWaveRecon.py))
+The angular spectrum method for the downward propagation of transmit and receive wavefields is implemented in both MATLAB ([propagate_polar.m](propagate_polar.m)) and Python ([propagate_polar.py](propagate_polar.py)). The following example scripts/tutorials are provided:
+1) A multistatic synthetic aperture image reconstruction using a Field II-simulated dataset ([FreqDomShotGatherMig_Curvilinear_FieldII.m](FreqDomShotGatherMig_Curvilinear_FieldII.m) and [FreqDomShotGatherMig_Curvilinear_FieldII.py](FreqDomShotGatherMig_Curvilinear_FieldII.py)).
+2) The equivalent time-domain reconstruction process shown using a single-element transmission ([TimeDomShotGatherMig_FieldII.m](TimeDomShotGatherMig_FieldII.m) and [TimeDomShotGatherMig_FieldII.py](TimeDomShotGatherMig_FieldII.py)).
+3) A focused synthetic aperture image reconstruction for an abdominal imaging example ([FreqDomShotGatherMig_Curvilinear_5C1.m](FreqDomShotGatherMig_Curvilinear_5C1.m) and [FreqDomShotGatherMig_Curvilinear_5C1.py](FreqDomShotGatherMig_Curvilinear_5C1.py)).
+4) The equivalent time-domain reconstruction process shown using a single focused-transmit beam ([TimeDomShotGatherMig_FieldII.m](TimeDomShotGatherMig_FieldII.m) and [TimeDomShotGatherMig_FieldII.py](TimeDomShotGatherMig_FieldII.py)).
 
-Please see any supporting functions in [beamforming_functions](beamforming_functions).
-
-**Please download the sample data (FocTxDataset.mat) under the [releases](https://github.com/rehmanali1994/FourierDomainBeamformer/releases) tab for this repository, and place that data in the main directory ([FourierDomainBeamformer](https://github.com/rehmanali1994/FourierDomainBeamformer)).**
+**Please download the sample data (FieldII_AnechoicLesionFullSynthData.mat and SiemensData5C1_Kidney2.mat) under the [releases](https://github.com/rehmanali1994/CurvilinearAngularSpectrumMethod/releases) tab for this repository, and place that data in the main directory ([CurvilinearAngularSpectrumMethod](https://github.com/rehmanali1994/CurvilinearAngularSpectrumMethod)).**
 
 # Sample Results
 We show the following multistatic synthetic aperture image reconstruction using the Fourier beamforming technique with the polar form of the angular spectrum method:
 
 ![](MultistaticReconstruction.png)
 
-The Fourier beamforming technique provided is equivalent to the time-domain cross-correlation process below:
+The Fourier beamforming technique provided is equivalent to the time-domain cross-correlation process shown below (only a single-element transmission is shown here):
 
 ![](FieldII_TimeDomain.gif)
 
@@ -36,6 +34,6 @@ We also acquired channel data in-vivo using focused transmit beams on a clinical
 
 ![](FocusedTxSyntheticAperture.png)
 
-We show the same time-domain cross-correlation process in-vivo as well:
+We show the same time-domain cross-correlation process in-vivo with a single focused transmit beam:
 
 ![](Siemens5C1_TimeDomain.gif)
