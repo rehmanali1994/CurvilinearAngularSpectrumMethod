@@ -9,7 +9,7 @@ We previously demonstrated a Fourier beamforming technnique that could be used t
 
 We provide sample data and algorithms presented in
 
-> Ali, R., Dahl, J. “Angular spectrum method for curvilinear arrays: theory and application to Fourier beamforming,” *Manuscript in Review.*
+> Rehman Ali and Jeremy Dahl , "Angular spectrum method for curvilinear arrays: Theory and application to Fourier beamforming", JASA Express Letters 2, 052001 (2022) https://doi.org/10.1121/10.0010536
 
 for the reconstruction ultrasound images using the Fourier beamforming technique. If you use the code/algorithm for research, please cite the above paper. 
 
